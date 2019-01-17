@@ -1,3 +1,11 @@
+Change Log
+==========
+
+### rer3d_1.0.0 - 17/01/2019
+* Removed local address from proxy blacklist.
+
+
+
 ### 2.9.0
 
 * Added automatic rate limiting of failed authentication attempts.
