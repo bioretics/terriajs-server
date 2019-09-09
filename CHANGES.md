@@ -1,14 +1,32 @@
-Change Log
-==========
+### 3.0.2
+
+* Stop setting cache-control directives for error responses.
+
+### 3.0.1
+
+* Increase post limit to 200kb on `share` endpoint.
+
+### 3.0.0
+
+* Switched to [pm2](http://pm2.keymetrics.io/) for managing the server process.
+
+### 2.9.3
+
+* Removed support for Google URL shortener creation and resolving.
+
+### 2.9.2
+
+* Fixed throwing an exception in a worker after conversion service runs on Nodejs verions 10+.
+
+### 2.9.1
+
+* Added automatic rate limiting of failed authentication attempts.
 
 ### rer3d_1.0.0 - 17/01/2019
 * Removed local address from proxy blacklist.
 
-
-
 ### 2.9.0
 
-* Added automatic rate limiting of failed authentication attempts.
 * Added support for additional feedback parameters. These additional parameters are described in `feedback.additionalParameters` in the config file.
 
 ### 2.8.0
