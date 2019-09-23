@@ -26,7 +26,7 @@ Generally, you don't want to manually install TerriaJS-Server. It comes installe
 
 #### Install
 
-1. `git clone https://github.com/terriajs/terriajs-server`
+1. `git clone https://github.com/rer3d-terriajs/terriajs-server`
 2. `cd terriajs-server`
 3. `npm install`
 
