@@ -1,3 +1,6 @@
+### rer3d-terriajs-server 1.2.0 - 25/09/2019
+* Package renamed.
+
 ### rer3d_1.1.0 - 19/09/2019
 * Merged with **terriajs-server 3.0.2**
 
