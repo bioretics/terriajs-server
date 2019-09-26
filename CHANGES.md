@@ -1,3 +1,6 @@
+### rer3d-terriajs-server 1.2.1 - 26/09/2019
+* Minor fix in pakage.json file.
+
 ### rer3d-terriajs-server 1.2.0 - 25/09/2019
 * Package renamed.
 
