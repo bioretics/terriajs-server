@@ -1,3 +1,6 @@
+### rer3d-terriajs-server 1.2.3 - 08/10/2019
+* Aligned proj4 version to rer3d-map
+
 ### rer3d-terriajs-server 1.2.2 - 26/09/2019
 * Changed repository owner.
 
