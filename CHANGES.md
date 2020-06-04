@@ -1,5 +1,5 @@
-### Next version
-
+### rer3d-terriajs-server 1.3.0 - 04/06/2020
+* Merged with **terriajs-server 3.2.0+**
 * Added option to configure post limit on `share` endpoint (see `shareMaxRequestSize` in `serverconfig.json.example`)
 
 From terriajs-server 3.2.0
