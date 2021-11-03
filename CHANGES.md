@@ -1,56 +1,50 @@
-### rer3d-terriajs-server 1.3.0 - 04/06/2020
-* Merged with **terriajs-server 3.2.0+**
-* Added option to configure post limit on `share` endpoint (see `shareMaxRequestSize` in `serverconfig.json.example`)
+### Next version
 
-From terriajs-server 3.2.0
+### 3.3.3
+* Authorisation token for feedback to be placed in header as per https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/
+
+### 3.3.2
+* Fixed a bug with the proxy route and certain redirect responses.
+
+### 3.3.1
+* Improved support with `resolvePathRelativeToWwwroot` triggering `serveWwwRoot`
+
+### 3.3.0
+
+* Added option to configure post limit on `share` endpoint (see `shareMaxRequestSize` in `serverconfig.json.example`)
+* Added option for resolving unmatched paths/routes to index.html for single page applications via `resolveUnmatchedPathsWithIndexHtml`
+
+### 3.2.0
 
 * Support appending additional parameters to a querystring via the `/proxy` endpoint.
 
-From terriajs-server 3.1.0
+### 3.1.0
 
 * Added support for the HTTP Strict-Transport-Security (HSTS) header.
 
-### rer3d-terriajs-server 1.2.3 - 08/10/2019
-* Aligned proj4 version to rer3d-map
-
-### rer3d-terriajs-server 1.2.2 - 26/09/2019
-* Changed repository owner.
-
-### rer3d-terriajs-server 1.2.1 - 26/09/2019
-* Minor fix in pakage.json file.
-
-### rer3d-terriajs-server 1.2.0 - 25/09/2019
-* Package renamed.
-
-### rer3d_1.1.0 - 19/09/2019
-* Merged with **terriajs-server 3.0.2**
-
-From terriajs-server 3.0.2:
+### 3.0.2
 
 * Stop setting cache-control directives for error responses.
 
-From terriajs-server 3.0.1:
+### 3.0.1
 
 * Increase post limit to 200kb on `share` endpoint.
 
-From terriajs-server 3.0.0:
+### 3.0.0
 
 * Switched to [pm2](http://pm2.keymetrics.io/) for managing the server process.
 
-From terriajs-server 2.9.3:
+### 2.9.3
 
 * Removed support for Google URL shortener creation and resolving.
 
-From terriajs-server 2.9.2:
+### 2.9.2
 
 * Fixed throwing an exception in a worker after conversion service runs on Nodejs verions 10+.
 
-From terriajs-server 2.9.1:
+### 2.9.1
 
 * Added automatic rate limiting of failed authentication attempts.
-
-### rer3d_1.0.0 - 17/01/2019
-* Removed local address from proxy blacklist.
 
 ### 2.9.0
 
