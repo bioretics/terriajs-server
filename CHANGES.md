@@ -1,4 +1,5 @@
-### Next version
+### rer3d+3.3.4
+* Merged with TerriaJS/terriajs-server
 
 ### 3.3.4
 
@@ -52,6 +53,9 @@
 ### 2.9.1
 
 * Added automatic rate limiting of failed authentication attempts.
+
+### 2.9.0+rer3d (rer3d_1.0.0 - 17/01/2019)
+* Removed local address from proxy blacklist.
 
 ### 2.9.0
 
